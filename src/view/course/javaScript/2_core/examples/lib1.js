@@ -1,0 +1,4 @@
+/**
+ * 
+ */
+var libraryName = 'lib1';

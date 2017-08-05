@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+	<title>Learning jQuery</title>
+	<meta charset="utf-8"/>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scal=1"/>
+	
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<style>
+	#circle {
+		width:200px;
+		height:200px;
+		background-color:green;
+		border-radius:100px;
+	}
+	
+
+	</style>
+</head>
+<body>
+
+	<div id="circle"></div>
+	<p id="text">This is some text</p>
+	
+	<iframe src="http://www.google.de"></iframe>
+
+	<script>
+		$("#circle").click(function() {
+		
+			$("#text").html("Clicked");
+			alert($('#text').html());
+		
+		});
+		
+		$("#circle").hover(function() {
+		
+			$("#text").html("Hovered");
+			$("iframe").attr("src", "http://www.google.de");
+		
+		});
+		
+		
+		
+
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script type="text/javascript"
+	src="http://code.jquery.com/jquery-latest.min.js"></script>
+<title>Online Courses</title>
+<link rel="stylesheet" href="view/style/courses.css"></link>
+<link href="view/course/webDeveloper/5_bootstrap/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<script type="text/javascript">
+	    $(function(){
+      $("#includeWebDeveloper").load("view/course/webDeveloper/webDeveloper.html"); 
+      $("#includeJavaScript").load("view/course/javaScript/javaScript.html"); 
+      $("#includeAngular").load("view/course/angularjs/angularjs.html"); 
+    });
+
+</script>
+</head>
+<body>
+	<h1>Online Course Resources</h1>
+	<div class="boxDiv courseDiv" id="includeWebDeveloper"></div>
+	<div class="boxDiv courseDiv" id="includeJavaScript"></div>
+	<div class="boxDiv courseDiv" id="includeAngular"></div>
+</body>
+</html>

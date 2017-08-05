@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+    <title>Learning Javascript</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+</head>
+
+<body>
+
+<p id="text">Some Text</p>
+<button id="changeText">Change Text!</button>
+
+<button id="appendText">Append something</button>
+<button id="createList">Create List</button>
+<div id="emptyDiv"></div>
+
+<script type="text/javascript">
+
+	// Get Elements and their value
+	alert(document.getElementById('text').innerHTML);
+	
+	// Set value
+	document.getElementById('changeText').onclick= function() {
+	
+		document.getElementById('text').innerHTML = 'Other Text!';
+	
+	}
+	
+	// Append value
+	document.getElementById('appendText').onclick= function() {
+	
+		document.getElementById('text').innerHTML = document.getElementById('text').innerHTML + ' Some More Text!';
+	
+	}
+	
+	// create HTML
+	document.getElementById('createList').onclick= function() {
+	
+		document.getElementById('emptyDiv').innerHTML = "<ul><li>First</li><li>Second</li></ul>";
+	
+	}
+</script>
+
+</body>
+</html>

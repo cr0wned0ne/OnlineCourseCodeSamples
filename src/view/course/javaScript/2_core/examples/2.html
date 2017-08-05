@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Comparison</title>
+</head>
+<body>
+	<h1>Comparison</h1>
+	<ol>
+		<li>Dynamic type: during execution can hold different values.</li>
+		
+
+	</ol>
+	<script type="text/javascript" src="lib1.js"></script> <!-- What happens here: No new execution context! Just stack js together in one file. -->
+	<script type="text/javascript" src="lib2.js"></script> <!-- Overwrites lib1 -->
+	<script type="text/javascript" src="lib3.js"></script>
+	<script type="text/javascript" src="lib4.js"></script> 
+	<script type="text/javascript" src="comp.js"></script>
+
+</body>
+</html>

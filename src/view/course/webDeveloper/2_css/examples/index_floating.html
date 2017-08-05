@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+    <title>Learning CSS</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type="text/css">
+    	p {
+    		color:#0B3B0B;
+    		
+    	}
+    	
+    	.firstP {
+    		font-size:300%;
+    	}
+    	
+    	#secondP {
+    		color:#6E6E6E;
+    	}
+    	
+    	.underline {
+    		text-decoration:underline;
+    	}
+    	
+    	.bold {
+    		font-weight:bold;
+    	}
+    	.greyBox {
+    		background-color:lightGrey;
+    		width:200px;
+    		height:200px;
+    		float:left;
+    	}
+    	.redBox {
+    		background-color:#FA5882;
+    		width:300px;
+    		height:200px;
+    		float:right;
+    	}
+    	
+    	.floatLeft {
+    		float:left;
+    	}
+    	.clear {
+    		clear:both;
+    	}
+    	
+    </style>  
+</head>
+
+<body>
+<div class="greyBox">
+	<p class="firstP">This is some text.</p>
+</div>
+<div class="redBox">
+	<p id="secondP" class="firstP">This is some more text.</p>
+</div>
+<div class="clear"></div>
+<p class="floatLeft">This text <span class="underline firstP bold">is</span> the third paragraph, the third word is underlined</p>
+
+</body>
+</html>

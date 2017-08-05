@@ -1,0 +1,266 @@
+    
+    body {
+    	margin:0;
+    	font-family:arial, helvetica, sans-serif;
+    }
+    
+    #topBar {
+    	font-weight:bold;
+    	color:white;
+    	background-color:#610B21;
+    	width:100%;
+    	height:40px;
+    	opacity: 0.7;
+    }
+    
+    .fixedwidth {
+    	width:1050px;
+    	margin:0 auto;
+    }
+    
+    #logo {
+    	float:left;
+    	padding-right:10px;
+    	padding-top:5px;
+    	border-right:1px solid #990000;
+    }
+    
+    #signInDiv {
+    	font-weight:bold;
+    	font-size:0.9em
+    	padding:6px 80px 12px 20px;
+    	float:left;
+    	border-right:1px solid #990000;
+    }
+    
+    #signInText {
+    	margin:10px 20px 12px 20px;
+    	padding:0 30px;
+    }
+    
+    #topmenuDiv {
+    	float:left;
+    }
+    
+    #topmenuDiv ul {
+    	margin-top:0;
+    	padding:0;
+    }
+    
+    #topmenuDiv li {
+    	font-size:0.9em;
+    	list-style:none;
+    	border-right:1px solid #990000;
+    	height:100%;
+    	padding:12px 20px 12px 20px;
+    	float:left;
+    	
+    }
+    
+    #searchDiv {
+    	padding:8px;
+    	float:left;
+    }
+    
+    #searchDiv input {
+    	border:none;
+    	padding:3px 0 3px 10px;
+    	font-size:0.9em;
+    	background-image:url("images/search.png");
+    	background-repeat:no-repeat;
+    	background-position:right center;  	
+    }
+    
+    .clear {
+    	clear:both;
+    }
+    #newsBar {
+    	font-weight:bold;
+    	color:white;
+    	background-color:#B40431;
+    	background-image:url("images/bgrnd.png");
+    	width:100%;
+    }
+    
+    
+    #newsHeader {
+    	font-size:2.7em;
+    	padding-top:35px;
+    	font-weight:normal;
+    	margin:0;
+    	padding:10px 0 0 0;
+    	float:left;
+    }
+    
+    #uk {
+    	font-size:0.7em;
+    }
+    
+    #rss {
+    	float:right;
+    	margin-top:35px;
+    }
+    
+    #rss img {
+    	height:14px;
+    }
+    
+    #topicmenu {
+    	
+    }
+    
+    #topicmenu ul{
+    	background-color:#3E0C0D;
+    	margin:0;
+    	padding:5px 0 0 5px;
+    	height:20px;
+    }
+    
+    #topicmenu li {
+    	list-style:none;
+    	font-size:0.7em;
+    	padding:0 10px;
+    	border-right:1px solid #990000;
+    	float:left;
+    }
+    
+    #topicmenu a {
+    	color:white;
+    	text-decoration:none;
+    }
+    
+    #topicmenu a:hover {
+    	text-decoration:underline;
+    }
+    
+    .selected {
+    	background-color:#FFFFFF;
+    	color:#666666;
+    	height:25px;
+    	position:relative;
+    	top:-4px;
+    	padding-top:4px |important;
+    }
+    
+        #content {
+    	color:black;
+    	width:100%;
+    	font-size:0.8em;
+    }
+    
+    .date {
+    	font-weight:bold;
+    }
+    
+    .article {
+    	width:55%;
+    	float:left;
+    }
+    
+    .article h1 {
+    	float:left;
+    	font-size:2.5em;
+    	color:#1F4F82;
+    	margin-top:3px;
+    	margin-bottom:10px;
+    }
+    .article img {
+    	float:left;
+    	margin-right:5px;
+    }
+    
+    .articleText {
+    	float:left;
+    	width:250px;
+    	
+    	margin-left:10px;
+    	
+    }
+    
+    .articleText p{
+    text-align:justify;
+    	margin:0;
+    	padding:0;
+    }
+    
+	a {
+    	text-decoration:none;
+    }
+    
+    .articleText a {
+    	color:#1F4F82;
+    	text-decoration:none;
+    	line-height:1.6em;
+    }
+    
+    a:hover {
+    	text-decoration:underline;
+    }
+    
+    .video {
+    	background-image:url("images/link.png");
+    	background-repeat:no-repeat;
+    	background-poistion:left center;
+    	padding-left:20px;
+    }
+    
+    #watchlisten {
+    	background-color:#EEEEEE;
+    	float:right;
+    	width:32%;
+    	position:relative;
+    	top:50px;
+    	margin-left:0;
+    	
+    }
+    
+    #watchlisten h2 {
+    	color:#505050;
+    	margin:10px 0 10px 10px;
+    	font-size:1.5em;
+    	
+    }
+    
+    #boxesImg {
+    	float:right;
+    	margin:15px 10px 0 0;
+    	
+    }
+    
+    #leftarrow {
+    	border-right:1px solid white;
+    	float:left;
+    }
+    
+    .wlblock {
+    	float:left;
+    	background-color:#D1700E;
+    	width:142px;
+    	border-right:1px solid white;
+    }
+    
+    .wlblock a {
+    	color:white;
+    }
+    
+    .wlblock p {
+    	margin:4.5px;
+    }
+    
+    #watchlisten ul {
+    	margin:0;
+    	padding:10px;
+    }
+    
+    #watchlisten li {
+    	list-style:none;
+    	background-image:url("images/live.png");
+    	background-repeat:no-repeat;
+    	background-position:left center;
+    	padding: 10px 0 10px 50px;
+    	font-size: 1.1em;
+    }
+    
+    .bb {
+    	border:1px solid #DODODO;
+    }
